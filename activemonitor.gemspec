@@ -7,8 +7,8 @@ require "activemonitor/version"
 Gem::Specification.new do |s|
   s.name        = "activemonitor"
   s.version     = Activemonitor::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Jeff Dickey"]
+  s.email       = ["jeff@dickey.xxx"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of Activemonitor."
   s.description = "TODO: Description of Activemonitor."
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.3"
-  # s.add_dependency "jquery-rails"
+  s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
 end
