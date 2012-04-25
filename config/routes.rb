@@ -1,3 +1,4 @@
 Activemonitor::Engine.routes.draw do
-  root to: 'request#index'
+  resource :request
+  root to: 'requests#index'
 end
