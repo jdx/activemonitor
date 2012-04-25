@@ -18,8 +18,12 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 3.2.3"
   s.add_dependency "jquery-rails"
+  s.add_dependency "redis"
+  s.add_dependency "twitter-bootstrap-rails"
 
   s.add_development_dependency('sqlite3-ruby') unless RUBY_PLATFORM == 'java'
   s.add_development_dependency('jdbc-sqlite3') if RUBY_PLATFORM == 'java'
   s.add_development_dependency('activerecord-jdbcsqlite3-adapter') if RUBY_PLATFORM == 'java'
+
+  s.add_development_dependency('rspec-rails')
 end

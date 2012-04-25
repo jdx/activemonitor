@@ -8,7 +8,13 @@
 </head>
 <body>
 
+<% flash.each do |key, message| %>
+  <%= content_tag :div, message, :id => key %>
+<% end %>
+
 <%= yield %>
+
+<a href="<%= activemonitor_path %>">ActiveMonitor</a>
 
 </body>
 </html>

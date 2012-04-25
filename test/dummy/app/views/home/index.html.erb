@@ -1,1 +1,4 @@
 <h1>Dummy app home</h1>
+<% [1, 5, 10].each do |count| %>
+  <a href="/sleep/<%= count %>">Sleep for <%= count %> seconds</a><br />
+<% end %>
