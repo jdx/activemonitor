@@ -5,4 +5,4 @@ test/dummy/db/*.sqlite3
 test/dummy/log/*.log
 test/dummy/tmp/
 test/dummy/.sass-cache
-active_monitor-\d.\d.\d.gem
+active_monitor-0.1.0.gem
