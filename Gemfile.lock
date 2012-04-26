@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    activemonitor (0.1.0)
+    active_monitor (0.1.0)
       bootstrap-sass
       coffee-script
       flot-rails
@@ -134,7 +134,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activemonitor!
+  active_monitor!
   jquery-rails
   rspec-rails
   sqlite3-ruby
