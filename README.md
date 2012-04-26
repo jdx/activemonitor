@@ -30,3 +30,13 @@ Redis running at `redis://127.0.0.1:6379`.
 
 If you need finer control over the configuration, let me (@dickeyxxx) know and I
 will add more configuration.
+
+TODO
+====
+
+* Add client performance tools
+* Find actual RPMs
+* Generate fake data for controller actions
+* Generate fake data for database
+* Generate fake data for client performance
+* Expand information on controller actions
