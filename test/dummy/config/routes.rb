@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   root :to => "home#index"
 
-  mount Activemonitor::Engine => "/activemonitor"
+  mount ActiveMonitor::Engine => "/monitor"
 end

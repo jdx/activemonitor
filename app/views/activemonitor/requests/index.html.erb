@@ -1,7 +1,0 @@
-<h2>Requests</h2>
-<ul>
-  <% @requests.each do |request| %>
-    <% puts request.second.inspect %>
-    <li><a href="<%= request_path(request.second) %>"><%= request.second %>:</a> <%= request.first.to_f.round(5) %> ms</li>
-  <% end %>
-</ul>

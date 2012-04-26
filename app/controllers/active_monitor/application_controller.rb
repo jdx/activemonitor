@@ -1,5 +1,5 @@
-module Activemonitor
+module ActiveMonitor
   class ApplicationController < ActionController::Base
-    layout 'activemonitor/application'
+    layout 'active_monitor/application'
   end
 end

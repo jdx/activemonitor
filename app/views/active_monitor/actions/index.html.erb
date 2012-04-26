@@ -1,0 +1,6 @@
+<h1>Actions</h1>
+<ul>
+  <% @actions.each do |time, action| %>
+    <li><a href="<%= action_path(Digest::MD5.hexdigest(action)) %>"><%= action %>:</a> <%= time.to_f.round(5) %> ms</li>
+  <% end %>
+</ul>
