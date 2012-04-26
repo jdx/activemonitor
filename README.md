@@ -17,7 +17,7 @@ Getting Started
 Add ActiveMonitor to your Gemfile with:
 
 ````ruby
-gem 'devise'
+gem 'active_monitor', github: 'dickeyxxx/active_monitor'
 ````
 
 Run the generator:
