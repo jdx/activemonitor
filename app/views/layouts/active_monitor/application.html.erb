@@ -17,6 +17,14 @@
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="<%= root_path %>">ActiveMonitor</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="<%= "active" if @active_tab == :dashboard %>"><a href="<%= root_path %>">Dashboard</a></li>
+              <li class="<%= "active" if @active_tab == :actions %>"><a href="<%= actions_path %>">Controller Actions</a></li>
+              <li class="<%= "active" if @active_tab == :database %>"><a href="#">Database</a></li>
+              <li class="<%= "active" if @active_tab == :client %>"><a href="#">Client</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

@@ -1,5 +1,7 @@
 module ActiveMonitor
-  class ActionsController < ApplicationController
+  class ActionsController < ActiveMonitor::ApplicationController
+    before_filter :set_active_tab
+
     def index
       @actions = REDIS.zrange 'actions', 0, -1, withscores: true
       @actions.reverse!
@@ -16,6 +18,12 @@ module ActiveMonitor
         format.html
         format.json { render json: timings }
       end
+    end
+
+    private
+
+    def set_active_tab
+      @active_tab = :actions
     end
   end
 end
