@@ -9,6 +9,8 @@ ActiveMonitor is a Redis-backed monitoring engine for your Rails application. It
 is designed to be easy to integrate, cause insignificant load, and provide
 useful performance analysis.
 
+![screenshot](http://f.cl.ly/items/3i1C251a301a0G2q2M3a/Screen%20Shot%202012-04-26%20at%2011.41.35%20AM.png)
+
 Getting Started
 ===============
 
