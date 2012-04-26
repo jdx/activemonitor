@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    activemonitor (1.0.0)
+    activemonitor (0.1.0)
       bootstrap-sass
       coffee-script
       flot-rails
